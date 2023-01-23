@@ -1,0 +1,259 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: black;
+}
+
+.top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    background-color: black;
+    padding: 15px;
+}
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-top: 15px;
+}
+
+.nav-logo {
+    display: inline-block;
+    padding-top: 0.3125rem;
+    padding-bottom: 0.3125rem;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+
+.nav-inf ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.nav-inf ul li {
+    list-style: none;
+}
+
+.nav-logo a {
+    color: white;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 18px;
+    color: #848484;
+    margin-right: 20px;
+}
+
+.all-main {
+    padding-top: 90px;
+    width: 100%;
+}
+
+.section1 {
+    max-width: 58%;
+    margin: auto;
+    padding: 10px;
+}
+
+.top-page {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.top-page h1 {
+    font-size: 60px;
+    color: white;
+    font-family: "Prata", serif;
+    font-weight: 400;
+}
+
+.top-page p {
+    color: #848484;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.section2 {
+    max-width: 58%;
+    margin: auto;
+    padding: 10px;
+}
+
+.two-page {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.two-page img {
+    padding-top: 20px;
+    max-width: 100%;
+    height: auto;
+}
+
+
+/*  ------------------------------------- */
+
+.section3 {
+    max-width: 58%;
+    margin: auto;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.middle-conent {
+    display: flex;
+    margin-right: -15px;
+    margin-left: -15px;
+    justify-content: space-evenly;
+}
+
+.card {
+    position: relative;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-radius: 0.25rem;
+}
+
+.section3 h2 {
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.section3 p {
+    color: #848484;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.section3 img {
+    width: 95%;
+    height: 200px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+/* --------------------------------- */
+
+.section4 {
+    background-color: #2e3038;
+    margin: auto;
+    padding: 10px;
+}
+
+.sec4-card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    max-width: 30%;
+    padding: 10px;
+    justify-content: center;
+    margin: 35px;
+}
+
+.sec4-card h1 {
+    color: white;
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+
+.sec4-card p {
+    color: #848484;
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+.sec4-middle {
+    display: flex;
+    margin-right: -15px;
+    margin-left: -15px;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.section5 {
+    max-width: 58%;
+    margin: auto;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.sec5 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.sec5 h1 {
+    color: white;
+    font-size: 36px;
+    font-family: "Prata", serif;
+    margin-bottom: 10px;
+}
+
+.sec5 p {
+    color: #848484;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.btn {
+    color: black;
+    background-color: #fbe850;
+    border-radius: 1px;
+    padding: 8px 18px;
+    transition: all 0.4s;
+    border: 1px solid #fbe850;
+}
+
+.btn:hover {
+    color: #fbe850;
+    background-color: black;
+}
+
+.ft {
+    padding-top: 10px;
+    background-color: #2e3038;
+    font-size: 30px;
+}
+
+.ft-last {
+    display: flex;
+    justify-content: space-around;
+}
+
+.ft-last h4 {
+    color: white;
+}
